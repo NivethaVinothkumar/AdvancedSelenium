@@ -1,0 +1,133 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6010677700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should open the browser",
+            "match": {
+              "location": "Login_Steps.userShouldOpenTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3748690200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should navigate to the demowebshop website",
+            "match": {
+              "location": "Login_Steps.userShouldNavigateToTheDemowebshopWebsite()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login should be successfull",
+        "description": "",
+        "id": "demowebshop-application;login-should-be-successfull",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 843668000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click on loginlink",
+            "match": {
+              "location": "Login_Steps.userShouldClickOnLoginlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417683800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should enter the username as \"dharunkumarrajendran@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dharunkumarrajendran@gmail.com\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Login_Steps.userShouldEnterTheUsernameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259840800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter the password as \"Dharun@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dharun@123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Login_Steps.userShouldEnterThePasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1080808400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click on the login button",
+            "match": {
+              "location": "Login_Steps.userShouldClickOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2120028100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "login sholud be successfully done",
+            "match": {
+              "location": "Login_Steps.loginSholudBeSuccessfullyDone()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop application",
+    "description": "",
+    "id": "demowebshop-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\LoginFeature\\Login.feature",
+    "tags": []
+  }
+]

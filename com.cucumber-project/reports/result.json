@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Add one product from Mens Shoe section",
+        "description": "",
+        "id": "meesho-application;add-one-product-from-mens-shoe-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2052322700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should open the browser",
+            "match": {
+              "location": "Meesho_Steps.userShouldOpenTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1016179500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should navigate to the Meesho website",
+            "match": {
+              "location": "Meesho_Steps.userShouldNavigateToTheMeeshoWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2190025500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should move the cursor to Men tab",
+            "match": {
+              "location": "Meesho_Steps.userShouldMoveTheCursorToMenTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3229454800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should Click on Casual Shoes",
+            "match": {
+              "location": "Meesho_Steps.userShouldClickOnCasualShoes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143063800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should click on Aadab Trendy link",
+            "match": {
+              "location": "Meesho_Steps.userShouldClickOnAadabTrendyLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2144434400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click on Shoe Size",
+            "match": {
+              "location": "Meesho_Steps.userShouldClickOnShoeSize()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 402015500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click on Add to Cart button",
+            "match": {
+              "location": "Meesho_Steps.userShouldClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Meesho Application",
+    "description": "",
+    "id": "meesho-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\MeeshoFeature\\Meesho.feature",
+    "tags": []
+  }
+]
